@@ -66,6 +66,23 @@ updateMovie = async (req, res) => {
                     message: 'Movie not updated!',
                 })
             })
+
+        // Bottom code doesn't work
+        // movie
+        //     .save()
+        //     .then(() => {
+        //         return res.status(200).json({
+        //             success: true,
+        //             id: movie._id,
+        //             message: 'Movie updated!',
+        //         })
+        //     })
+        //     .catch(error => {
+        //         return res.status(404).json({
+        //             error,
+        //             message: 'Movie not updated!',
+        //         })
+        //     })
     })
 }
 
