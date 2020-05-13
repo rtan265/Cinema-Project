@@ -70,8 +70,6 @@ class MoviesUpdate extends React.Component{
         const arrayTime = time.split('/')
         const payload = { name, rating, time: arrayTime }
 
-        console.log("logging changes")
-
         await api.updateMovieById(id, payload).then(res => {
             window.alert(`Movie updated successfully`)
             this.setState({
@@ -81,7 +79,6 @@ class MoviesUpdate extends React.Component{
             })
         })
 
-        console.log("done!")
     }
 
     componentDidMount = async() => {
