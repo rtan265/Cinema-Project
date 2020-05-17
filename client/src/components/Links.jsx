@@ -24,22 +24,22 @@ class Links extends React.Component{
                 <Collapse>
                     <List>
                         <Item>
-                            <Link to = "/movies/list" className = "link-tab">
+                            <Link to = "/movies/listmovies" className = "link-tab">
                                 List movies
                             </Link>
                         </Item>
                         <Item>
-                            <Link to = "/movies/create" className = "link-tab">
+                            <Link to = "/movies/createmovie" className = "link-tab">
                                 Create Movie
                             </Link>
                         </Item>
                         <Item>
-                            <Link to = "/movies/create" className = "link-tab">
+                            <Link to = "/movies/listemployees" className = "link-tab">
                                 List Employees
                             </Link>
                         </Item>
                         <Item>
-                            <Link to = "/movies/create" className = "link-tab">
+                            <Link to = "/movies/createemployee" className = "link-tab">
                                 Create New Employee
                             </Link>
                         </Item>
