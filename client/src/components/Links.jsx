@@ -33,6 +33,16 @@ class Links extends React.Component{
                                 Create Movie
                             </Link>
                         </Item>
+                        <Item>
+                            <Link to = "/movies/create" className = "link-tab">
+                                List Employees
+                            </Link>
+                        </Item>
+                        <Item>
+                            <Link to = "/movies/create" className = "link-tab">
+                                Create New Employee
+                            </Link>
+                        </Item>
                     </List>
                 </Collapse>
             </React.Fragment>
