@@ -105,7 +105,7 @@ class MoviesInsert extends React.Component {
                     onChange= { this.handleChangeInputRating }
                 />
 
-                <Label>Time: </Label>
+                <Label>Times: </Label>
                 <InputText 
                     type="text"
                     value = {time}
