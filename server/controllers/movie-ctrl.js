@@ -1,5 +1,9 @@
 const Movie = require('../models/movie-model');
 
+createEmployees = (req, res) => {
+    
+}
+
 createMovie = (req, res) => {
     const body = req.body
 
