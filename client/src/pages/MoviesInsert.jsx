@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 
 const Title = styled.h1.attrs({
-    className: 'h1',
+    className: 'h2',
 })``
 
 const Wrapper = styled.div.attrs({
