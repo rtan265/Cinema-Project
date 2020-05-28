@@ -55,6 +55,22 @@ updateEmployee = async (req, res) => {
     })
 }
 
+deleteEmployee = async(req, res) => {
+    await Employee.findOneAndDelete({ _id: req.params.id }, (err, employee) => {
+        if (err) {
+            return res.status(400).json({ success: true, error:err })
+        }
+
+        if (!employee){
+            return res
+                .status(404)
+                .json({ success: false, error: `Employee not found` })
+        }
+        
+        return res.staus(200).json({ success: true, data: employee })
+    }).catch(err => console.log(err));
+}
+
 module.exports = {
     createEmployee
 }
