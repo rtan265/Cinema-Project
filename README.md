@@ -5,17 +5,17 @@ I've always wanted to learn more about the MERN (MongoDB, Express, ReactJs, Node
 
 ## Usage
 To run this project, you will need two command prompts on Windows. First, clone the repository. For the first command line:
-''' 
+```
 cd server
-node index.js ## Starts the server on port 3000
-'''
+nodemon index.js ## Starts the server on port 3000
+```
 
 For the second command line:
-'''
+```
 cd client
 npm install
 npm start ## Runs on port 3000, but due to us running the server instance on port 3000, we will instead tap "Y" to running it on port 3001.
-'''
+```
 
 
 ## To be built features:
